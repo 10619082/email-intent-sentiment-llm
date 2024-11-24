@@ -104,3 +104,26 @@ The AI identifies:
 - **SSR Requests**: Additional accommodations like wheelchair access or dietary needs.
 - **Customer Status**: Whether the sender is a current customer, non-customer, or unknown.
 
+Here's how you can introduce the JSON output in the **Classification Prompt Documentation**:
+
+---
+
+## Example Output
+
+The Classification Prompt processes the email data and produces a structured **JSON object**. This JSON serves as the standardized output for future integration with downstream systems.
+
+### Example JSON Output
+
+```json
+{
+  "purpose": "Group Request",
+  "sentiment": "Neutral",
+  "complexity_level": "Medium",
+  "agent_type": "Senior",
+  "priority_level": "Medium",
+  "required_tools": ["GDS", "Pricing database", "Itinerary planner"],
+  "customer_status": "Unknown",
+  "preferred_language": "English",
+  "ssr_requests": []
+}
+```
