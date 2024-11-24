@@ -1,0 +1,54 @@
+subject;sender;recipients;body;expected_purpose;expected_sentiment;expected_complexity_level;expected_agent_type;expected_priority_level;expected_required_tools;expected_customer_status;expected_preferred_language;expected_ssr_requests
+"Assistance Needed with Overdue Refund";"kelly.johnson@example.com";"refunds@travelagency.com";"Dear Refunds Team,
+
+I am writing to follow up on a refund request I submitted over a month ago regarding my canceled trip (booking reference T12345). I was informed that the refund would be processed within 14 business days, but I have yet to receive the funds or any communication regarding the delay.
+
+This situation is causing me financial strain, and I am becoming increasingly frustrated with the lack of responsiveness. Please provide an update on the status of my refund and expedite the process.
+
+Thank you for your prompt attention to this matter.
+
+Sincerely,
+
+Kelly Johnson";"Refund Request";"Negative";"Medium";"Senior";"High";"Refund Processing; Customer Service Portal";"Customer";"English";""
+"Request for Travel Itinerary Correction";"bruce.banner@example.com";"changes@travelagency.com";"Hello,
+
+I recently received my travel itinerary for booking reference U67890, and I noticed that my surname is misspelled as 'Baner' instead of 'Banner'. It's important that this be corrected to match my passport to avoid any issues at the airport.
+
+Please update my booking with the correct spelling and send me the revised itinerary.
+
+Thank you.
+
+Best regards,
+
+Bruce Banner";"Change Request";"Neutral";"Low";"Junior";"Medium";"Booking System";"Customer";"English";""
+"Inquiry About Overbooked Flight Compensation";"wanda.maximoff@example.com";"support@travelagency.com";"Dear Support Team,
+
+I was denied boarding on Flight 999 on October 31st, 2023, due to the flight being overbooked. I was rebooked on a later flight, which caused significant delays to my travel plans.
+
+I am aware that passengers may be entitled to compensation in such situations. Could you please provide information on how to file a claim?
+
+Thank you.
+
+Sincerely,
+
+Wanda Maximoff";"Refund Request";"Neutral";"Medium";"Senior";"Medium";"Customer Service Portal; Compensation Guidelines";"Customer";"English";""
+"Assistance Required for Booking Accessible Seating";"charles.xavier@example.com";"specialrequests@travelagency.com";"Dear Team,
+
+I am a wheelchair user and have an upcoming flight on December 12th, 2023, booking reference V23456. I need to request accessible seating and assistance during boarding and deplaning.
+
+Please confirm that these accommodations have been made.
+
+Thank you.
+
+Sincerely,
+
+Charles Xavier";"Special Requests";"Neutral";"High";"Expert";"High";"Booking System; Accessibility Resources";"Customer";"English";"Accessible Seating; Boarding Assistance"
+"Complaint About Unhelpful Staff at Check-In";"tony.stark@example.com";"feedback@travelagency.com";"To Whom It May Concern,
+
+I am writing to express my disappointment with the service I received at the check-in counter on November 1st, 2023, at CityT Airport. The staff member was unhelpful and rude when I asked for assistance with my luggage.
+
+This experience has left a negative impression of your airline. I expect better customer service and hope you will address this issue internally.
+
+Regards,
+
+Tony Stark";"Feedback or Complaints";"Negative";"Medium";"Senior";"Medium";"Feedback Management System";"Customer";"English";""

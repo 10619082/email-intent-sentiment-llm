@@ -1,9 +1,8 @@
-import openai
 import os
 from dotenv import load_dotenv
 from prompt_evaluation_pipeline import PromptEvaluationPipeline, OpenAIExecutor
 from prompts.evaluation_prompt_01 import system_prompt as evaluation_system_prompt
-from prompts.prompt_02 import system_prompt as classification_system_prompt, mimic_prompt as classification_mimic_prompt
+from prompts.prompt_03 import system_prompt as classification_system_prompt
 
 def main():
     
@@ -13,7 +12,6 @@ def main():
     
     # Define your prompts
     CLASSIFICATION_PROMPT = classification_system_prompt
-    CLASSIFICATION_MIMIC_PROMPT = classification_mimic_prompt
     EVALUATION_PROMPT = evaluation_system_prompt
     
     # Initialize different executors for classification and evaluation
@@ -38,7 +36,7 @@ def main():
     
     # Run the evaluation
     stats = pipeline.run_multiple_evaluations(
-        dataset_path="dataset_01.csv",
+        dataset_path="./datasets/combined_dataset.csv",
         output_dir="evaluation_results",
         classification_prompt=CLASSIFICATION_PROMPT,
         evaluation_prompt=EVALUATION_PROMPT,

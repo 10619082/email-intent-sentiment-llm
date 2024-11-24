@@ -1,0 +1,54 @@
+{
+    "prompts": [
+        {
+            "name": "General Dataset",
+            "instructions": "Objective:  Generate a diverse set of realistic emails covering all predefined categories and parameters for the travel agency domain.",
+            "emails_to_generate": 120
+        },
+        {
+            "name": "Edge Cases",
+            "instructions": "Objective: Generate realistic emails that cover edge cases to ensure the model can handle unusual or challenging scenarios.\n\nGuidelines:\n\n- Include Emails With:\n- Multiple purposes in a single email.\n- Unclear or ambiguous requests.\n- Mixed sentiments.\n- Non-standard formats (e.g., missing subject lines, informal greetings).\n- Missing information.\n- Extremely short or overly long emails.\n- Use of technical jargon or overly simplistic language.\n\n- Realism Enhancements: Emphasize human errors and varied lengths.",
+            "emails_to_generate": 60
+        },
+        {
+            "name": "Language and Cultural Diversity",
+            "instructions": "Objective: Generate realistic emails in multiple languages and cultural contexts.\n\nGuidelines:\n\n- Languages to Include: English, Spanish, French, German, Mandarin.\n- Cultural Nuances: Reflect appropriate cultural greetings, sign-offs, and etiquette.\n- Realism Enhancements: Include language proficiency variations and cultural communication styles.",
+            "emails_to_generate": 36
+        },
+        {
+            "name": "Special Service Requests (SSR) Emphasis",
+            "instructions": "Objective: Generate realistic emails that highlight special service requests and customer-specific needs.\n\nGuidelines:\n\n- SSR Examples: Dietary requirements, wheelchair assistance, pet accommodations, etc.\n- Realism Enhancements: Include personal details, emotional tones, and human errors.",
+            "emails_to_generate": 60
+        },
+        {
+            "name": "High Complexity",
+            "instructions": "Objective: Generate realistic emails that are highly complex and require expert agents.\n\nGuidelines:\n\n- Complex Scenarios: Legal issues, international incidents, medical emergencies, VIP client requests.\n- Realism Enhancements: Use detailed explanations, technical language, and reflect emotional content.",
+            "emails_to_generate": 120
+        },
+        {
+            "name": "Sentiment Variations",
+            "instructions": "Objective: Create realistic emails that cover a wide range of sentiments.\n\nGuidelines:\n\n- Sentiment Distribution: Positive, Neutral, Negative, Unclear (as specified).\n- Realism Enhancements: Use emotional language, tone shifts, and human errors reflecting the emotional state.",
+            "emails_to_generate": 120
+        },
+        {
+            "name": "Diverse Writing Styles and Formats",
+            "instructions": "Objective: Produce realistic emails with varying writing styles and formats.\n\nGuidelines:\n\n- Styles: Formal, casual, emails with typos, use of emojis or internet slang.\n- Formats: Bullet points, numbered lists, walls of text, inconsistent formatting.\n- Realism Enhancements: Include varied lengths and formatting errors.",
+            "emails_to_generate": 60
+        },
+        {
+            "name": "Tool Requirement Variations",
+            "instructions": "Objective: Generate realistic emails that require different tools for resolution.\n\nGuidelines:\n\n- Tools Examples: Booking Management System, CRM Software, Flight Rebooking Tool, etc.\n- Realism Enhancements: Include implied needs, varied complexity, and human errors in tool references.",
+            "emails_to_generate": 36
+        },
+        {
+            "name": "Customer Status Unknown",
+            "instructions": "Objective: Create realistic emails where the customer status is not immediately clear.\n\nGuidelines:\n\n- Scenarios: Lack of identifying information, use of personal emails, vague requests.\n- Realism Enhancements: Emphasize ambiguity and human errors.",
+            "emails_to_generate": 36
+        },
+        {
+            "name": "Urgency and Priority Levels",
+            "instructions": "Objective: Generate realistic emails with varying urgency to test priority level classification.\n\nGuidelines:\n\n- High Priority Examples: Emergencies, last-minute changes.\n- Medium and Low Priority Examples: Policy questions, general inquiries.\n- Realism Enhancements: Reflect urgency in emotional tone and length.",
+            "emails_to_generate": 72
+        }
+    ]
+}
