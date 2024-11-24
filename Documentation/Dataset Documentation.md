@@ -24,6 +24,10 @@ Each CSV file contains emails with the following fields:
 - `recipients`: Travel agency email (<support@travelagency.com>)
 - `body`: Main email content
 
+### **Ground Truth Omission**
+
+In this dataset, ground truth labels for the correct classification of emails have been intentionally omitted. This approach simplifies the validation process by relying entirely on the LLM for scoring and evaluation. It eliminates the need for manual labeling, reduces costs, and enhances scalability. While this introduces some reliance on the LLM’s interpretative accuracy, it aligns with a dynamic, flexible pipeline that can adapt to evolving business needs and datasets.
+
 ### Dataset Categories
 
 1. **General Dataset** (120 emails)
