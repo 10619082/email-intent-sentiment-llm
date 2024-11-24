@@ -170,9 +170,15 @@ pipeline = PromptEvaluationPipeline(
 The pipeline generates several output files in the specified output directory:
 
 1. `all_runs_{timestamp}.csv`: Complete results dataset
-2. `accuracy_distribution_{timestamp}.html`: Box plot visualization
-3. `accuracy_violin_{timestamp}.html`: Violin plot for detailed distribution
-4. `statistics_summary_{timestamp}.html`: Interactive summary dashboard
+
+2. `accuracy_distribution_{timestamp}.html`: Box plot visualization  
+   ![Box Plot Visualization](images/Box%20plot.png)
+
+3. `accuracy_violin_{timestamp}.html`: Violin plot for detailed distribution  
+   ![Violin Plot Visualization](images/Violin.png)
+
+4. `statistics_summary_{timestamp}.html`: Interactive summary dashboard  
+   ![Statistics Summary Dashboard](images/Gauge%20chart.png)
 
 ### Visualization Types
 
