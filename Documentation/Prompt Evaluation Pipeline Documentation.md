@@ -172,13 +172,14 @@ The pipeline generates several output files in the specified output directory:
 1. `all_runs_{timestamp}.csv`: Complete results dataset
 
 2. `accuracy_distribution_{timestamp}.html`: Box plot visualization  
-   ![Box Plot Visualization](images/Box%20plot.png)
+   ![Box Plot Visualization](https://github.com/10619082/email-intent-sentiment-llm/raw/main/images/Box_plot.png)
 
 3. `accuracy_violin_{timestamp}.html`: Violin plot for detailed distribution  
-   ![Violin Plot Visualization](images/Violin.png)
+   ![Violin Plot Visualization](https://github.com/10619082/email-intent-sentiment-llm/raw/main/images/Violin.png)
 
 4. `statistics_summary_{timestamp}.html`: Interactive summary dashboard  
-   ![Statistics Summary Dashboard](images/Gauge%20chart.png)
+   ![Statistics Summary Dashboard](https://github.com/10619082/email-intent-sentiment-llm/raw/main/images/Gauge_chart.png)
+
 
 ### Visualization Types
 
