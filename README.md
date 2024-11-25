@@ -71,10 +71,10 @@ To balance cost and performance:
 
 2. **Prompt Testing**:
    - Modify prompts in the `prompts/` folder to test new ideas.
-   - Use the provided pipeline in `main_pipeline_code.py` to evaluate prompt performance.
+   - Use the provided pipeline in `run_evaluation.py` to evaluate prompt performance.
 
 3. **Evaluation Framework**:
-   - Use `evaluation_prompt_01.txt` to validate outputs from classification prompts.
+   - Use `evaluation_prompt_01` to validate outputs from classification prompts.
    - Analyze results using the metrics generated in `Evaluation Pipeline Documentation.md`.
 
 ---
