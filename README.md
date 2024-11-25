@@ -24,12 +24,18 @@ A dataset was generated using various prompts to create diverse and realistic em
 ---
 
 ### 3. **Prompt Development and Testing**
+
 Various classification and evaluation prompts were created and tested to achieve the highest possible accuracy in email intent classification. The repository includes:
 
-- **Classification Prompts**: Multiple iterations were developed to refine email classification. The classification prompt called `prompt_01` yielded the highest accuracy across the dataset.
-- **Evaluation Prompt**: Designed to score and assess classification outputs for accuracy and robustness.
+- **Classification Prompts**: Multiple iterations were developed to refine email classification. The classification prompt called `prompt_01` yielded the highest accuracy across the dataset.  
+  - For more details, refer to the [Classification Prompt Documentation](https://github.com/10619082/email-intent-sentiment-llm/raw/main/Documentation/Classification%20prompt%20Documentation.md).
+
+- **Evaluation Prompt**: Designed to score and assess classification outputs for accuracy and robustness.  
+  - For more details, refer to the [Evaluation Prompt Documentation](https://github.com/10619082/email-intent-sentiment-llm/raw/main/Documentation/Evaluation%20prompt%20Documentation.md).
+
 - **Prompts Folder**: All developed prompts are stored in the `prompts` folder for easy reference.
 
+- **Evaluation Results**: All experiments conducted with various prompts, including their performance evaluations, can be found in the `evaluation_results` folder. This folder contains the results produced by the tested prompts, along with their corresponding evaluations, providing transparency and insight into the testing process.
 > **Note**: As outlined in [System Diagram and Pipeline for Prompt Testing Documentation.md](https://github.com/10619082/email-intent-sentiment-llm/raw/main/Documentation/System%20Diagram%20and%20Pipeline%20for%20Prompt%20Testing%20Documentation.md), a unified dataset was used to simplify testing while ensuring coverage across diverse scenarios.
 
 ---
