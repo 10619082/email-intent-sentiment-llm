@@ -195,6 +195,19 @@ The pipeline generates several output files in the specified output directory:
    - Interactive gauge chart
    - Cost breakdown and key metrics
 
+### Deterministic Accuracy Calculation
+
+To address the inherent **non-deterministic nature of LLM outputs**, the pipeline allows **multiple evaluation runs** for the same prompt and dataset. The following process is implemented to ensure reliability:
+
+- **Run Repetition**: Each prompt is tested across multiple iterations (`num_runs`).
+- **Average Accuracy**: The final accuracy is calculated as the **mean of all individual run accuracies**, smoothing out variability between runs.
+- **Improved Reliability**: This approach ensures a more deterministic evaluation metric, reducing the impact of random fluctuations in LLM behavior.
+
+For example:
+- If `num_runs = 5`, the accuracy is averaged across all five runs to obtain the final score.
+
+This methodology ensures that decisions based on evaluation metrics are robust and consistent, providing a more accurate measure of prompt performance.
+
 ## Cost Management
 
 The pipeline includes sophisticated cost tracking features:
